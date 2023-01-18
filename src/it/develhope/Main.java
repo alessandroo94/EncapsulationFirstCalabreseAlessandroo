@@ -15,3 +15,4 @@ public class Main {
         System.out.println(String.format("Floors Number: " + house.getFloorsNumber()));
         System.out.println(String.format("Resident: " + Arrays.toString(house.getResidentsNames())));
     }
+}
