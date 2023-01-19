@@ -15,7 +15,7 @@ public class Main {
         house.setFloorsNumber(input.nextInt());
 
         System.out.println("Enter the address: ");
-        house.setAddress(input.nextLine());
+        house.setAddress(input.next());
 
 
         System.out.println(String.format("Floors number: %d, Address: %s, Residents: %s",
